@@ -32,3 +32,14 @@ const myFuncation=function(){
 }
 
 console.log(typeof myFuncation);
+
+
+
+// +++++++++++++++++++++++++++++++++++
+
+//stack(primitive),heap(non-primitive)
+let youtubename="abhisheklife"
+let anothername=youtubename
+anothername="newlife"
+
+console.log(anothername)
